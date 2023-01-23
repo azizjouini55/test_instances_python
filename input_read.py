@@ -141,7 +141,7 @@ def main(instance_file,solution_file):
     # print(solution_sequences)
    
 
-    return solution_sequences,buses_capacitites,school_nodes_list,max_trips_per_bus
+    return solution_sequences,buses_capacitites,school_nodes_list,max_trips_per_bus,min_bus_utilization
     
    
 if __name__ == "__main__" :
